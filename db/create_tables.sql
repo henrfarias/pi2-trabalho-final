@@ -4,7 +4,7 @@ CREATE TABLE web_prog.user (
   id integer primary key,
   name varchar(50) not null,
   username varchar(30) not null,
-  password varchar(50) not null
+  password varchar not null
 );
 
 CREATE TABLE web_prog.investment (
