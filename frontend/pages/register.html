@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finfy | Login</title>
+    <link rel="stylesheet" href="../src/css/global.css" />
+    <link rel="stylesheet" href="../src/css/register.css" />
+  </head>
+  <body>
+    <main class="login">
+      <h1 class="logo login__logo">Finfy</h1>
+      <section class="login__welcome">
+        <div class="login__welcome__container">
+          <h2 class="welcome__container__text">Bem vindo ao <strong class="logo">Finfy</strong></h2>
+          <form>
+            <div class="welcome__container__input">
+              <input type="text" id="name" data-register-name placeholder="nome completo" />
+              <label for="name">Nome</label>
+            </div>
+            <div class="welcome__container__input">
+              <input type="text" id="user" data-register-user placeholder="usuario@exemplo.com" />
+              <label for="user">Usuario</label>
+            </div>
+            <div class="welcome__container__input">
+              <input type="password" id="password" data-register-password placeholder="senha" />
+              <label for="password">Senha</label>
+            </div>
+            <button class="welcome__container__button" data-submit type="button">Registrar</button>
+            <span class="welcome__container__unregistered">Já tem uma conta? <a href="./login.html">Faça login</a></span>
+          </form>
+        </div>
+      </section>
+      <section class="login__presentation bg-linear">
+        <div class="presentation__container">
+          <h2 class="login__text">Sua plataforma de simulação de investimentos.</h2>
+          <p class="login__text">Tenhas as informações dos seus investimentos de forma fácil e precisa com Finfy.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="module" src="../src/javascript/main/register.js"></script>
+</html>

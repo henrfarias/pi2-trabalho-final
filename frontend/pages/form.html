@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../src/css/global.css" />
+  <link rel="stylesheet" href="../src/css/form.css" />
+  <title>Finfy | Form</title>
+</head>
+<body>
+  <main class="bg-linear container">
+    <nav class="nav">
+      <a href="./history.html">Histórico</a>
+      <a data-io-button href="#">Entrar</a>
+    </nav>
+    <h1 class="logo">Finfy</h1>
+    <section class="container__form">
+      <h2>Simule um investimento</h2>
+      <form>
+        <label for="name">Nome do investimento</label>
+        <input data-name id="name" type="text" placeholder="nome do investimento"/>
+        <label for="value">Valor inicial investido</label>
+        <div class="container__form__spam">
+          <span>R$</span>
+          <input data-value id="value" type="number" placeholder="1500,50"/>
+        </div>
+        <label for="month">Investimento mensal</label>
+        <div class="container__form__spam">
+          <span>R$</span>
+          <input data-month id="month" type="number" placeholder="1500,50"/>
+        </div>
+        <label for="rentability">Rentabilidade do investimento</label>
+        <div class="container__form__spam">
+          <input data-interest id="rentability" type="number" placeholder="5" />
+          <span>% a.a</span>
+        </div>
+        <label for="date_in">Data de entrada</label>
+        <input data-application-date id="date_in" type="date" />
+        <label for="date_in">Data de saída</label>
+        <input data-due-date id="date_out" type="date" />
+        <button data-submit type="button">Simular</button>
+      </form>
+    </section>
+  </main>
+</body>
+<script type="module" src="../src/javascript/main/form.js"></script>
+</html>

@@ -1,0 +1,1 @@
+SELECT * FROM web_prog.investment WHERE id = 2;

@@ -1,0 +1,1 @@
+UPDATE web_prog.investment SET name = 'another_name' where web_prog.investment.id = 2;

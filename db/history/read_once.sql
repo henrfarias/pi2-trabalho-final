@@ -1,0 +1,1 @@
+SELECT * FROM web_prog.history WHERE investment_id = 2 AND user_id = 2;

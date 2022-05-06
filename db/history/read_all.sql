@@ -1,0 +1,1 @@
+SELECT * FROM web_prog.history WHERE user_id = 2;

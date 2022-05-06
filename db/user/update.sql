@@ -1,0 +1,1 @@
+UPDATE web_prog.user SET name = 'another_name' where web_prog.user.id = 1;

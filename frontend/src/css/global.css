@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;500&family=Poly:ital@0;1&family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  --light-green: #397123;
+  --green: #548c2f;
+  --dark-green: #104911;
+  --white-font: #fff;
+  --black-font: #333;
+  --secondary-font: #AFAAB9;
+  --gray: #C4C4C4;
+  --dark-gray: #646881;
+  --error: #C62828;
+  --message: #306BAC
+}
+
+.bg-linear {
+  background: linear-gradient(153.69deg, var(--dark-green) 0.4%, var(--light-green) 99.81%, var(--green) 99.82%);
+}
+
+.logo {
+  background-image: linear-gradient(97.16deg, #333333 -8.07%, #548C2F 201.66%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+}
+
+.modal_error {
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--error);
+  color: var(--white-font);
+  padding: 1.5rem;
+  border-radius: 8px;
+  animation: in-and-out 3s reverse ease-in-out;
+}
+
+.modal_message {
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--message);
+  color: var(--white-font);
+  padding: 1.5rem;
+  border-radius: 8px;
+  animation: in-and-out 3s reverse ease-in-out;
+}
+
+@keyframes in-and-out {
+  0% {
+    top: -5rem;
+  }
+
+  25% {
+    top: 5rem;
+  }
+
+  80% {
+    top: 5rem;
+  }
+}

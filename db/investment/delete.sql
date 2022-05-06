@@ -1,0 +1,1 @@
+DELETE FROM web_prog.investment where web_prog.investment.id = 1;
