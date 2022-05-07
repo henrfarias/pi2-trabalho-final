@@ -6,10 +6,11 @@
   "scripts": {
     "test": "jest",
     "test:dev": "npm t -- --watch",
-    "dev": "tsnd --respawn --transpile-only src/server/server.ts"
+    "dev": "tsnd --respawn --transpile-only src/server/server.ts",
+    "start": "tsc && node dist/src/server/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "henrfarias",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
