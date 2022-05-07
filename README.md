@@ -19,7 +19,9 @@ npm -v
 
 2 - Entre na pasta db, copie o conteúdo do arquivo **create_tables.sql** e faça uma query pelo sua GUI de postgres favorita. Isso irá criar o schema e as tabelas necessárias.
 
-3 - Agora vá até a pasta **api** e rode os seguintes comandos no console: 
+3 - Agora navegue até o diretório **api**, crie um arquivo **.env**, copie o conteúdo do arquivo .env.example e repasse para o .env recém criado.
+Preencha corretamente com as credencias do seu banco de dados criado no passo 1.
+Por fim, com seu console dentro do diretório **api**, rode os seguintes comandos no console: 
 ```
 npm install
 ```
